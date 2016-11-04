@@ -2,7 +2,7 @@
 
 ![LaMetric Slack Index](https://raw.githubusercontent.com/pgrimaud/lametric-slack/master/images/slack.png)
 
-# How it works ?
+# How it works
 
  - First, go to this page : https://your-team.slack.com/apps/build/custom-integration (replace "your-team" by your real slack team name)
 
@@ -22,7 +22,7 @@
  
  ![LaMetric Slack Ok](https://raw.githubusercontent.com/pgrimaud/lametric-slack/master/images/ok.gif)
  
- ![LaMetric Slack Click](https://raw.githubusercontent.com/pgrimaud/lametric-slack/master/images/click.gif)
+ ![LaMetric Slack Click](https://raw.githubusercontent.com/pgrimaud/lametric-slack/master/images/clickonce.gif)
 
 ## Help
 
