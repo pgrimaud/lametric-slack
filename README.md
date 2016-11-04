@@ -1,2 +1,3 @@
 # Slack Notifications for LaMetric
-Push messages on Slack with your LaMetric
+
+![LaMetric Slack Index](https://raw.githubusercontent.com/pgrimaud/lametric-slack/master/images/slack.png)
