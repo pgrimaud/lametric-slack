@@ -22,7 +22,7 @@
  
  ![LaMetric Slack Ok](https://raw.githubusercontent.com/pgrimaud/lametric-slack/master/images/ok.gif)
  
- ![LaMetric Slack Click](https://raw.githubusercontent.com/pgrimaud/lametric-slack/master/images/clickonce.gif)
+ ![LaMetric Slack Click](https://raw.githubusercontent.com/pgrimaud/lametric-slack/master/images/oneclick.gif)
 
 ## Help
 
