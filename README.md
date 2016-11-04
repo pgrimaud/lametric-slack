@@ -8,11 +8,13 @@
 
  - Click on "Incoming WebHooks"
 
- - Choose a channel and valid
+ - Choose a channel or a people and valid
  
  - Copy the value after https://hooks.slack.com/services/ on your WebHook URL. (e.g. T2T308EA1/B2E2MBEEN/FEVi5KkEuEeYrEzRpjEyErEV). This is your *token*, don't lose it!
    
  - Then launch your LaMetric app, install our app "Slack Notifications" and fill all the fields with correct values.
+ 
+ - You can set a #channel or @mention someone
  
  ![LaMetric Slack App](https://raw.githubusercontent.com/pgrimaud/lametric-slack/master/images/app.png)
  
@@ -24,9 +26,10 @@
 
 If you see something like this :
 
-![LaMetric Slack Ko](https://raw.githubusercontent.com/pgrimaud/lametric-slack/master/images/ko.gif)
+ ![LaMetric Slack Ko](https://raw.githubusercontent.com/pgrimaud/lametric-slack/master/images/ko.gif)
 
- 
+ - Verify all your credentials on app settings
+
 ## Feedback
 
 If you need help, [create an issue](https://github.com/pgrimaud/lametric-slack/issues) or contact us on [Twitter](http://twitter.com/pgrimaud_)

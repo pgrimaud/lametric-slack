@@ -48,11 +48,10 @@ class Api
     {
         $settings = [
             'username' => $this->parameters['name'],
-            'channel' => $this->parameters['channel'],
             'link_names' => true
         ];
 
         $client = new Client('https://hooks.slack.com/services/' . $this->parameters['token'], $settings);
-        $client->withIcon($this->parameters['icon'])->send($this->parameters['text']);
+        $client->to($this->parameters['channel'])->withIcon($this->parameters['icon'])->send($this->parameters['text']);
     }
 }
