@@ -21,6 +21,8 @@
  - Finally, press the button on your LaMetric and take a look on Slack :wink:!
  
  ![LaMetric Slack Ok](https://raw.githubusercontent.com/pgrimaud/lametric-slack/master/images/ok.gif)
+ 
+ ![LaMetric Slack Click](https://raw.githubusercontent.com/pgrimaud/lametric-slack/master/images/click.gif)
 
 ## Help
 
