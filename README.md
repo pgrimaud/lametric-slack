@@ -8,7 +8,7 @@
 
  - Click on "Incoming WebHooks"
 
- - Choose a channel or a people and valid
+ - Choose a channel or a people and validate
  
  - Copy the value after https://hooks.slack.com/services/ on your WebHook URL. (e.g. T2T308EA1/B2E2MBEEN/FEVi5KkEuEeYrEzRpjEyErEV). This is your *token*, don't lose it!
    
