@@ -1,6 +1,6 @@
 {
   "require": {
-    "maknz/slack": "^1.7"
+    "alek13/slack": "^1.10"
   },
   "autoload": {
     "psr-4": {
