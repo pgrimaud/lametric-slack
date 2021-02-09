@@ -1,8 +1,11 @@
 <?php
 
-require_once __DIR__ . '/../vendor/autoload.php';
-
 use Lametric\Slack;
+
+require_once __DIR__ . '/../vendor/autoload.php';
+$config = require_once __DIR__ . '/../config/parameters.php';
+
+Sentry\init(['dsn' => $config['sentry_key']]);
 
 try {
     $parameters = new Slack\Validation($_GET);
