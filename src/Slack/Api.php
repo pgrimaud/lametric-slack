@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 namespace Lametric\Slack;
 
 use Maknz\Slack\Client;
@@ -6,21 +9,21 @@ use Maknz\Slack\Client;
 class Api
 {
     /** @var array */
-    private $parameters = [];
+    private array $parameters = [];
 
     /**
      * @param array $parameters
      */
-    public function setParameters($parameters)
+    public function setParameters(array $parameters): void
     {
         $this->parameters = $parameters;
     }
 
-    public function send()
+    public function send(): void
     {
         $settings = [
-            'username' => $this->parameters['name'],
-            'link_names' => true
+            'username'   => $this->parameters['name'],
+            'link_names' => true,
         ];
 
         $client = new Client('https://hooks.slack.com/services/' . $this->parameters['token'], $settings);
